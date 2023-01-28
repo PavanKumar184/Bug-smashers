@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          
+         
+          
+          .cde{
+            text-decoration: none;
+            color: black;
+          }
+          .cde:hover{
+            color: blue;
+            text-decoration: dashed;
+          }
+          .image{
+            margin-right: 250px;
+            height: 500px;
+            width: 500px;
+            margin-top: 30px;
+
+          }
+          .email{
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            padding-left: 5px;
+          }
+          .email:focus{
+            border: 2px solid blue;
+            outline: none;
+          }
+          .btn{
+            width: 300px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: blue;
+          }
+          .btn:hover{
+            background-color: darkblue;
+          }
+          .join{
+            border:none;
+            background-color: white;
+          }
+          .join:hover{
+            background-color:beige;
+            height: 30px;
+            width: 70px;
+            border-radius: 50px;
+          }
+          .sign{
+            border: 2px solid blue;
+            color: blue;
+            border-radius: 50px;
+            height: 40px;
+            width: 90px;
+          }
+          .sign:hover{
+            background-color: lightblue;
+          }
+          .head{
+            color: brown;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+          }
+          .btn1{
+            width: 300px;
+            height: 40px;
+            border-radius: 50px;
+            margin-right: 300px;
+          }
+          .btn1:hover{
+            background-color: beige;
+          }
+          .box{
+            box-shadow: 0px 0px 0px 0px;
+            width: 60%;
+            padding-left: 150px;
+            height: 400px;
+            width: 500px;
+            padding-bottom: 150px;
+          }
+          .a{
+            text-decoration: none;
+            word-spacing: 15px;
+            color: black;
+          }
+         
+        
+    </style>
+</head>
+<body>
+    
+    <table>
+      <tr>
+        <td>
+    <div class="box">
+        <form action="">
+            <p class="head">Welcome to AskRit</p>
+            <input class="email" type="email" name="Email or Phone number" placeholder="Email or Phone number"><br><br><br>
+            <input class="email" type="password" name="password" placeholder="password"><br><br>
+            <a class="cde" href="">Forget password?</a><br><br>
+            <button class="btn">Sign in</button><br><br>
+            <button class="btn1"><img src="./Screenshot (90).png" alt="" height="20px" width="20px"> Sign in with Google</button>
+        </form>
+    </div>
+        </td>
+          <td>
+    <div>
+      <img class="image" src="data:image/png;base64,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" alt="" width="100px" height="90px">
+    </div>
+  </tr>
+</td>
+  </table>
+
+</body>
+</html>
+<a href=""><button>Submit</button></a>
+
+
+
